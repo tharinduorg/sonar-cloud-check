@@ -41,5 +41,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+<properties>
+  <sonar.organization>tharinduorg</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 </project>
