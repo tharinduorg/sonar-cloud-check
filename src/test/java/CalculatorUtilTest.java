@@ -14,6 +14,6 @@ public class CalculatorUtilTest {
     public void testAddNegative() {
         long x = 1L;
         long y = 2L;
-        Assert.assertFalse(CalculatorUtil.add(x, y) != 5);
+        Assert.assertFalse(CalculatorUtil.add(x, y) == 5);
     }
 }
